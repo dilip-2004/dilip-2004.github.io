@@ -1,0 +1,110 @@
+h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+p
+{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+    margin:1%;
+    background-color: black;
+    color: white;
+}
+button
+{
+    width: 15%;
+    font-size: larger;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover
+{
+    background-color: #002db3;
+    color: white;
+    cursor: pointer;
+}
+.button
+{
+    justify-content: center;
+    display: flex;
+}
+img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+#images
+{
+    margin-top: 20px;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+}
+.image1:hover
+{
+    padding: 20px;
+    border-radius: 30px;
+    cursor: col-resize;
+}
+.image1
+{
+    padding: 10px;
+}
+#list
+{
+    font-size: larger;
+    font-family: cursive;
+}
+li
+{
+    list-style-type: circle;
+}
+li:hover
+{
+    list-style-type:disc;
+    cursor: default;
+}
+#createaccount
+{
+    background-color: #050303;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 32%;
+}
+input[type=text]
+{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    font-size: larger;
+    border-radius: 5px;
+}
+select
+{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    font-size: larger;
+    border-radius: 5px;
+}
+label
+{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b
+{
+    text-align: center;
+    margin-right: 450px;
+}
